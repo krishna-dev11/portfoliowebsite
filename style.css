@@ -880,6 +880,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
 }
 
 
@@ -887,57 +888,136 @@
 {
     height: 500px;
     width: 500px;
-    border: 1px solid black;
+    margin-top:10%;
+      
+}
+
+.redup
+{  
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+#M
+{
+    font-size: 6rem;
+    color: #D91656;
+}
+
+#e
+{
+    font-size: 3rem;
+    color: #D91656;
+    margin-bottom: 1rem;
+    font-weight: 400;
     
 }
 
+#mytech
+{
+    font-size: 3rem;
+    color: #D91656;
+    font-weight: 400;
+    margin-top: -5%;
+}
+
+.black p
+{
+    margin-top: 2rem;
+    font-family: sans-serif;
+    
+
+}
+
+
 .skills-section-right
 {
-    height: 600px;
-    width: 600px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.alllanguages
-{
-    position: absolute;
-    z-index: 1;
+    height: 500px;
+    width: 500px;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
 }
 
-.blobe
+.langimg
 {
-    position: absolute;
-    animation: moveblob 3s linear infinte;
-}
-
-@keyframes moveblobe 
-{
-   0%
-   {
-        transform: translateY(0)  ;
-   }
-   
-   50%
-   {
-       transform: translateY(10px) ;
-   }
-    100%
-    {
-       transform: translateY(0) ;
-    }
-}
-
-
-
-.forlanguagesize
-{    
-     height: 90px;
+    height: 90px;
+    gap: 40px;
+    
+    
 }
 
           /* skill section end */
+
+
+.informationform
+{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(128, 128, 128, 0.466) ;
+    
+    
+
+}
+
+
+.textsection
+{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 14rem;
+}
+
+#contactme
+{
+    font-size: 5rem;
+    color: red;
+    font-weight: bolder;
+}
+
+#questions
+{
+    font-size: 2rem;
+    margin-left: 10px;
+    color: #343d68;
+    font-weight: 500;
+}
+
+.formsection
+{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: 100%;
+    margin: 4rem 20%;
+    gap: 1rem;
+}
+
+.forinputsize
+{
+    width: 60%;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 5px black;
+}
+
+.messagetext
+{
+    height: 17rem;
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.send-message-button
+{
+    margin-bottom: 
+    
+}
+
+
