@@ -5,46 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
      <div class="wrapper">
         <div class="container">
  
-            <!-- navigation bar -->
-            <div class="nav-bar">
-                   <div class="nav-bar-left">
-                        <img src="./stack/klogo.jpg" class="navlogo" alt="_blank">
-                        <p >rishna</p>
-                   </div>
-                   <div class="nav-bar-right">
-                        <div class="projects  "><a href="#" class="navhref">Projects</a></div>
-                        <div class="skills  "><a href="#" class="navhref">Skills</a></div>
-                        <div class="contact "><a href="#" class="navhref">Contact Me</a></div>
-                   </div>
-            </div>
-            <!-- navigtion end -->
-        
             
+            <div class="navbar">
+                <div class="navleft">
+                    <img src="stack/klogo.jpg" width="110rem" alt="">
+                    <p>rishna</p>
+                </div>
+                <div class="navright">
+                    <a href="">Projects</a>
+                    <a href="">Skills
+                        
+                    </a>
+                    <a href="#">Contact me</a>
+                </div>
+            </div>
 
-             <!-- hero section -->
             <div class="hero-section">
 
                 <div class="hero-left">
-                <div class="hero-left-hi">
-                    <p>Hi! Krishna Gothwal</p>
-                </div>
-                <div class="hero-left-iam">
-                    <p>I am a <span class="role"></span></p>
-                </div>
+                
+                    <p class="hero-left-hi">Hi! Krishna Gothwal</p>
+                
+                
+                    <p class="hero-left-iam"> I am a <span class="role"></span></p>
+                
                 <div class="hero-left-about">
-                    I’m a software developer and here is my portfolio website. Here you’ll learn about <br> my journey as a software developer.</div>
-                <div class="hero-left-button">
-                     <a href="#" >HIRE ME</a>
+                    I’m a software developer and here is my portfolio website. <br> Here you’ll learn about  my journey as a software developer.
                 </div>
+
+                <div class="hero-left-button">
+                    <a href="#">Hire me</a>
+                </div>
+
                 </div>
 
                 <div class="hero-right">
-                    <img src="./userAsset/UserImage.png" alt="_blank" class="userimage">
+                    <img src="./userAsset/UserImage.png" alt="_blank" class="userimage" width="350rem">
                     <div class="plus"><img src="./userAsset/plus.png" alt="_blank"></div>
                     <div class="cube"><img src="./userAsset/cube.png" alt="_blank"></div>
                     <div class="circle"><img src="./userAsset/circle.png" alt="_blank"></div>
@@ -52,13 +54,14 @@
                     <div class="zigzag"><img src="./userAsset/zigzags.png" alt="_blank"></div>
                 </div>
         
-            </div>
-            <!-- hero section end -->
+            </div> 
+             <!-- hero section end -->
 
             <div class="fadded">Krishna</div>
 
     
             <!-- project section start-->
+             
              <div class="project-section">
                   <div class="project-heading">
                         <h1 id="head">Projects</h1>
@@ -200,16 +203,18 @@
                             <img src="stack/MongoDB.svg" alt="" class="langimg">
                             <img src="stack/NextJsCircle.png" alt="" class="langimg">
                             <img src="stack/Redux.svg" alt="" class="langimg">
-                            <img src="stack/NextJsCircle.png" alt="" class="langimg">
-                            <img src="stack/Next.svg" alt="" class="langimg">
                             <img src="stack/React.png" alt="" class="langimg">
                             <img src="stack/Tailwind.png" alt="" class="langimg">
                             <img src="stack/Saas.svg" alt="" class="langimg">
                             <img src="stack/Vercel.svg" alt="" class="langimg">
                             <img src="stack/MongoDB.svg" alt="" class="langimg">
                             <img src="stack/NextJsCircle.png" alt="" class="langimg">
-                            <img src="stack/Redux.svg" alt="" class="langimg">
+                           
                         </div>
+
+                      <div class="blob">
+                        <img src="userAsset/blob vector.png" class="blob-style" alt="">
+                      </div>
                     </div>
                 </div>
                  </div>
@@ -225,25 +230,48 @@
 
                          <div class="formsection">
                             <div class="name" >
-                                <input type="Enter Your name Here" class="forinputsize">
+                                <input type="text" placeholder="Enter Your name here" class="forinputsize">
                             </div>
                             <div class="email">
-                                <input type="Enter Your Email Here" name="" class="forinputsize">
+                                <input type="email" name="" class="forinputsize"  placeholder="Enter Your Email Here">
                             </div>
                             <div class="subject">
-                                <input type="Enter Your  Subject" class="forinputsize">
+                                <input type="text" class="forinputsize" placeholder="Enter Your  Subject">
                             </div>
                             <div class="message">
-                                <input type="text" name="" class="messagetext">
+                                <input type="text" name="" class="messagetext" placeholder="Enter your message">
                             </div>
                          </div>
 
-                         <div class="send-message-button   hero-left-button" >
-                            <p>Send Message</p>
-                         </div>
-                    
+                        <div class="sendbutton">
+                            <a href="#">Send message</a>
+                            <i class="fa-solid fa-paper-plane fa-xl" style="color: #ffffff;"></i>
+                        </div>
                    </div>
             <!-- contact me end -->
+
+            <!-- last section -->
+            <div class="lastsection">
+                <div class="lastblue">
+                    <div class="lastleft">
+                        <a href="#">Projects</a>
+                        <a href="#">Skills</a>
+                        <a href="#">Contact Me</a>
+                    </div>
+    
+                    <div class="lastright">
+                        <i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-twitter fa-xl" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-facebook fa-xl" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i>
+                        <i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff;"></i>
+                    </div>
+            
+                </div>
+                
+            </div>
+            <!-- last section end -->
+
                 
     </div>
 
